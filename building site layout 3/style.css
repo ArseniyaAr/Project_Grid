@@ -1,0 +1,147 @@
+body{
+    width: 1366px;
+    margin: 0 auto;
+font-family: "Roboto";
+line-height: 1.5;
+
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Designing h1,h2,h3{
+    margin: 0;
+
+}
+.Designing h1{
+    font-family: "Roboto Light" ;
+    font-size: 45.71px;
+    font-weight: 100;
+}
+.Designing h2{
+    font-family: "Roboto";
+    font-size: 45.71px;
+
+}
+.Designing h3{
+    font-family: "roboto regular";
+    font-size: 45.71px;
+    font-weight: 100;
+}
+.Designing p{
+    font-family: "roboto regular";
+    font-size: 20.57px;  
+    line-height: 1.5;
+    padding-right: 55px;
+}
+
+.Designing{
+    background-color: #f3f3f3;
+    padding: 70px;
+    padding-bottom: 0;
+}
+.function{
+    display:grid;
+    grid-template-columns:40% 60%;
+  grid-template-rows:auto auto auto;
+  
+  
+}
+.function h1{
+    font-size:45px;
+}
+.function p{
+    font-size:15.57px;
+}
+.starting,.dummy{
+    padding-left: 58px;
+    padding-right: 270px;
+}
+
+.properties{
+    background: url(img/Rectangle\ 2.png) no-repeat;
+    grid-row: 1/4;
+    color: white;
+    padding-left: 58px;
+    padding-right: 60px;
+
+}
+.starting{
+    background: url(img/Rectangle\ 3.png)no-repeat;
+    grid-row: 1/2;
+}
+.dummy{
+background: url(img/Rectangle\ 4.png)no-repeat;
+grid-row:2/3 ;
+color: white;
+}
+.button1{
+    font-size:16.57px;
+    font-family: "Roboto Regular";
+    font-weight: 100;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px 40px;
+    margin: 55px 0 65px;
+}
+.dummy .button1{
+    color: white;
+    border: 1px solid white;
+}
+.Hey{
+    display: grid;
+    grid-template-columns:33% 67%;
+}
+.webpage{
+    background: url(img/Rectangle\ 5.png) no-repeat;
+    color: white;
+    padding-left: 58px;
+}
+.webpage h1{
+    font-size:45px;
+    color: white;
+    padding: 30px 65px 200px 0; 
+}
+.webpage h2{
+    font-size:42px;
+    color: white;
+}
+.webpage p{
+    font-size:16.57px;
+}
+
+.Hello{
+    background: url(img/Rectangle\ 6.png) no-repeat;
+    padding: 30px 0 45px 60px;
+}
+.Hello h1{
+    font-size:45px;
+    color: white;
+ 
+}
+.name{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 106px 20px 30px;
+    font-size:16.57px;  
+    margin-right: 10px; 
+} 
+input::-webkit-input-placeholder{
+        color: white;
+}
+.mes{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 454px 118px 30px;
+    font-size:16.57px;   
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+}
+.Hello p{
+    font-size:16.57px; 
+    color: white;
+}
